@@ -3,9 +3,12 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link rel="manifest" href="/manifest.json"> -->
+  <link rel="apple-touch-icon" href="/images/apple-touch.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#764ABC"/>
   <title>Baking with the Gemini API</title>
-<link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
+  <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
 
 
 </head>
@@ -37,11 +40,17 @@
           <input name="prompt" placeholder="Enter instructions here" type="text"
             value="">
         </label>
-        <button type="submit">Go</button>
+        <button type="submit">Ask</button>
       </div>
     </form>
     <p class="output">(Results will appear here)</p>
+
+    
   </main>
+  
+<footer class="footer">
+    <p>Copyright &copy; 2024 <span>Galdan Infotech</span>.</p>
+  </footer>
 
   <script type="module" src="/main.js"></script>
   <script>
